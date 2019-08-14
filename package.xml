@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>Skip_shipping_method</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="https://opensource.org/licenses/osl-3.0.php">OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>The extension is easy to install and use. The order place without user fill shipping method Extension is lightweight, completes the task with minimum obstruction, and is in line with the Magento Order Management Workflow.</summary>
+    <description>This extension allows admin to add skip shipping method while using placing orders. The admin can set default shipping method for every user on sales order grid and this is also added to the invoice. Shipping method for Magento enables you to provide better to choosing customers by letting them write an about the order at time of checkout. The admin can view default shipping method in the form of grid listing or in the order detail page as a customer order request. &#xD;
+&#xD;
+The extension is easy to install and use. The order place without user fill shipping method Extension is lightweight, completes the task with minimum obstruction, and is in line with the Magento Order Management Workflow.</description>
+    <notes>First Release</notes>
+    <authors><author><name>Chandan Kumar Singh</name><user>chandan8050</user><email>chandankumar8050@gmail.com</email></author></authors>
+    <date>2016-12-19</date>
+    <time>06:20:28</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Chandan_Checkout.xml" hash="89d58c1a5a578d839244ab6f619a4834"/></dir></target><target name="magecommunity"><dir name="Chandan"><dir name="Checkout"><dir name="Block"><file name="Onepage.php" hash="1a2a832d395a35dedfb40a56fa159556"/></dir><dir name="Helper"><file name="Data.php" hash="e4e04a136093341dc918167a96c946ac"/></dir><dir name="Model"><dir name="Adminhtml"><dir name="System"><dir name="Config"><dir name="Source"><dir name="Shipping"><file name="Methods.php" hash="5e3eaafe5b5e75b1545bd79f9e2b2776"/></dir></dir></dir></dir></dir></dir><dir name="controllers"><file name="OnepageController - Copy.php" hash="540700c5b9778db8d8acbf96fec1bbca"/><file name="OnepageController.php" hash="540700c5b9778db8d8acbf96fec1bbca"/></dir><dir name="etc"><file name="config.xml" hash="2ceee514c069feae832c9af22119c1a0"/><file name="system.xml" hash="a1448cf9b42868ea88ae8ff4873d9217"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>7.0.0</max></php></required></dependencies>
+</package>
