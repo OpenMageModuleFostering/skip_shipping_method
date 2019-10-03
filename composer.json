@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Skip_shipping_method",
+    "name": "OpenMageModuleFostering\/Skip_shipping_method",
     "type": "magento-module",
     "license": "OSL",
     "homepage": "",
     "description": "The extension is easy to install and use. The order place without user fill shipping method Extension is lightweight, completes the task with minimum obstruction, and is in line with the Magento Order Management Workflow.",
     "authors": [
-    {
-        "name": "Chandan Kumar Singh",
-        "email": "chandankumar8050@gmail.com"
-    }
-],
+        {
+            "name": "Chandan Kumar Singh",
+            "email": "chandankumar8050@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
